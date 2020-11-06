@@ -26,6 +26,7 @@ public class heshani {
 	  
       if(text) {
          System.out.println("Word '" + search + "' was found");
+		 System.out.println("Word count of '" + search +"':" +count);
       } else {
          System.out.println("Word '" + search + "' was NOT found");
       }
